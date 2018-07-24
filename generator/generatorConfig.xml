@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<context id="testTables" targetRuntime="MyBatis3">
+	
+		<!-- JavaBean 实现 序列化 接口 -->
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin">
+		</plugin>
+		<!-- genenat entity时,生成toString -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+        <!-- 自定义查询指定字段  -->
+        <plugin type="org.mybatis.generator.plugins.field.FieldsPlugin" />
+        <!-- 开启支持内存分页   可生成 支持内存分布的方法及参数  
+        <plugin type="org.mybatis.generator.plugins.RowBoundsPlugin" />
+        -->
+        <!-- generate entity时，生成hashcode和equals方法-->
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		 
+		<!-- 此处是将Example改名为Criteria 当然 想改成什么都行~    -->      
+        <plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">  
+	        <property name="searchString" value="Example$" />
+	        <!-- 替换后
+	        <property name="replaceString" value="Criteria" />  
+	         -->
+	        <property name="replaceString" value="Query" />
+        </plugin>  
+		<!-- 此处是将UserMapper.xml改名为UserDao.xml 当然 想改成什么都行~ --> 
+        <plugin type="org.mybatis.generator.plugins.rename.RenameSqlMapperPlugin">  
+	        <property name="searchString" value="Mapper" />
+	        <property name="replaceString" value="Dao" />
+        </plugin>  
+		<!-- 此处是将UserMapper改名为UserDao 接口 当然 想改成什么都行~  -->   
+        <plugin type="org.mybatis.generator.plugins.rename.RenameJavaMapperPlugin">  
+	        <property name="searchString" value="Mapper$" />
+	        <property name="replaceString" value="Dao" />
+        </plugin>  
+ 
+		
+		<commentGenerator type="org.mybatis.generator.plugins.comment.MyCommentGenerator">
+			<!-- 是否去除自动生成的注释 true：是 ： false:否 
+			<property name="suppressAllComments" value="true" />
+			-->
+		</commentGenerator>
+		
+		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://localhost:3306/pinyougoudb" userId="root"
+			password="admin">
+		</jdbcConnection>
+		<!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
+			connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
+			userId="yycg"
+			password="yycg">
+		</jdbcConnection> -->
+
+		<!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和 
+			NUMERIC 类型解析为java.math.BigDecimal -->
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+
+		<!-- targetProject:生成PO类的位置 -->
+		<javaModelGenerator targetPackage="cn.itcast.core.pojo"
+			targetProject=".\src">
+			<!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="enableSubPackages" value="false" />
+			<!-- 从数据库返回的值被清理前后的空格 -->
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+        <!-- targetProject:mapper映射文件生成的位置 -->
+		<sqlMapGenerator targetPackage="cn.itcast.core.dao" 
+			targetProject=".\resources">
+			<!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="enableSubPackages" value="false" />
+		</sqlMapGenerator>
+		<!-- targetPackage：mapper接口生成的位置 -->
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="cn.itcast.core.dao" 
+			targetProject=".\src">
+			<!-- enableSubPackages:是否让schema作为包的后缀 -->
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+		
+
+		<!-- 指定数据库表 -->
+		<table schema="" tableName="tb_order" domainObjectName="order.Order"/>
+		<table schema="" tableName="tb_order_item" domainObjectName="order.OrderItem"/>
+		<table schema="" tableName="tb_address" domainObjectName="address.Address"/>
+		<table schema="" tableName="tb_areas" domainObjectName="address.Areas"/>
+		<table schema="" tableName="tb_cities" domainObjectName="address.Cities"/>
+		<table schema="" tableName="tb_provinces" domainObjectName="address.Provinces"/>
+		<table schema="" tableName="tb_content" domainObjectName="ad.Content"/>
+		<table schema="" tableName="tb_content_category" domainObjectName="ad.ContentCategory"/>
+		<table schema="" tableName="tb_pay_log" domainObjectName="log.PayLog"/>
+		<table schema="" tableName="tb_seller" domainObjectName="seller.Seller"/>
+		<table schema="" tableName="tb_user" domainObjectName="user.User"/>
+		<table schema="" tableName="tb_brand" domainObjectName="good.Brand"/>
+		<table schema="" tableName="tb_goods" domainObjectName="good.Goods"/>
+		<table schema="" tableName="tb_goods_desc" domainObjectName="good.GoodsDesc"/>
+		<table schema="" tableName="tb_specification" domainObjectName="specification.Specification"/>
+		<table schema="" tableName="tb_specification_option" domainObjectName="specification.SpecificationOption"/>
+		<table schema="" tableName="tb_type_template" domainObjectName="template.TypeTemplate"/>
+		<table schema="" tableName="tb_freight_template" domainObjectName="template.FreightTemplate"/>
+		<table schema="" tableName="tb_item_cat" domainObjectName="item.ItemCat"/>
+		<table schema="" tableName="tb_item" domainObjectName="item.Item"/>
+		<table schema="" tableName="tb_seckill_goods" domainObjectName="seckill.SeckillGoods"/>
+		<table schema="" tableName="tb_seckill_order" domainObjectName="seckill.SeckillOrder"/>
+		
+	</context>
+</generatorConfiguration>
