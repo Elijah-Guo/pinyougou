@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b92dd0d-f251-420a-9211-ac50a26cd6df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/parent318.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_common/pyg_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_interface/pyg_interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_service_buyer/pyg_service_buyer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_service_page/pyg_service_page.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_service_search/pyg_service_search.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_service_sellergoods/pyg_service_sellergoods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_service_user/pyg_service_user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_web_manager/pyg_web_manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_web_portal/pyg_web_portal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_web_shop/pyg_web_shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyg_web_user/pyg_web_user.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solr_util/solr_util.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/pyg_service_sellergoods/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_pojo/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_web_portal/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_dao/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_interface/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_common/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_web_manager/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_service_page/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_service_user/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_service_buyer/target/" />
+    <ignored path="$PROJECT_DIR$/solr_util/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_web_shop/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_service_search/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_web_user/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyg_common/src/main/java/cn/itcast/core/util/HttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/pyg_service_sellergoods/pyg_service_sellergoods.iml" />
+        <option value="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
+        <option value="$PROJECT_DIR$/pyg_web_portal/pyg_web_portal.iml" />
+        <option value="$PROJECT_DIR$/parent318.iml" />
+        <option value="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
+        <option value="$PROJECT_DIR$/pyg_interface/pyg_interface.iml" />
+        <option value="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
+        <option value="$PROJECT_DIR$/pyg_web_manager/pyg_web_manager.iml" />
+        <option value="$PROJECT_DIR$/pyg_service_page/pyg_service_page.iml" />
+        <option value="$PROJECT_DIR$/pyg_service_user/pyg_service_user.iml" />
+        <option value="$PROJECT_DIR$/pyg_service_buyer/pyg_service_buyer.iml" />
+        <option value="$PROJECT_DIR$/solr_util/solr_util.iml" />
+        <option value="$PROJECT_DIR$/pyg_web_shop/pyg_web_shop.iml" />
+        <option value="$PROJECT_DIR$/pyg_service_search/pyg_service_search.iml" />
+        <option value="$PROJECT_DIR$/pyg_web_user/pyg_web_user.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_buyer_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_buyer_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_page_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_page_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_search_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_search_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_sellergoods_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_sellergoods_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_user_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_service_user_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_manager_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_manager_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_portal_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_portal_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_shop_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_shop_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_user_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/pyg_web_user_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ca_juliusdavies_not_yet_commons_ssl_0_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_wxpay_wxpay_sdk_0_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_1_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_13_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_1_4_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_10_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_45.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_client_cas_client_core_3_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_2_5_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_openws_1_4_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_xmltooling_1_3_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_esapi_esapi_2_0GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_6_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_11_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_1_5_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_cas_4_1_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_0_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__velocity_velocity_1_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_10_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="978" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="parent318" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\guopeibin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b92dd0d-f251-420a-9211-ac50a26cd6df" name="Default Changelist" comment="" />
+      <created>1554961436010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554961436010</updated>
+      <workItem from="1554961439565" duration="2071000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2071000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="978" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/java/cn/itcast/core/util/FastDFSClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_web_user/src/main/java/cn/itcast/core/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_common/src/main/java/cn/itcast/core/util/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

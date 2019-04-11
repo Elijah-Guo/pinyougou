@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/pyg_service_buyer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_service_page" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_service_search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_service_sellergoods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_service_user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_web_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_web_portal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_web_shop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_web_user" charset="UTF-8" />
+  </component>
+</project>

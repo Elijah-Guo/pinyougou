@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent318.iml" filepath="$PROJECT_DIR$/parent318.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_interface/pyg_interface.iml" filepath="$PROJECT_DIR$/pyg_interface/pyg_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_service_buyer/pyg_service_buyer.iml" filepath="$PROJECT_DIR$/pyg_service_buyer/pyg_service_buyer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_service_page/pyg_service_page.iml" filepath="$PROJECT_DIR$/pyg_service_page/pyg_service_page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_service_search/pyg_service_search.iml" filepath="$PROJECT_DIR$/pyg_service_search/pyg_service_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_service_sellergoods/pyg_service_sellergoods.iml" filepath="$PROJECT_DIR$/pyg_service_sellergoods/pyg_service_sellergoods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_service_user/pyg_service_user.iml" filepath="$PROJECT_DIR$/pyg_service_user/pyg_service_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_web_manager/pyg_web_manager.iml" filepath="$PROJECT_DIR$/pyg_web_manager/pyg_web_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_web_portal/pyg_web_portal.iml" filepath="$PROJECT_DIR$/pyg_web_portal/pyg_web_portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_web_shop/pyg_web_shop.iml" filepath="$PROJECT_DIR$/pyg_web_shop/pyg_web_shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_web_user/pyg_web_user.iml" filepath="$PROJECT_DIR$/pyg_web_user/pyg_web_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solr_util/solr_util.iml" filepath="$PROJECT_DIR$/solr_util/solr_util.iml" />
+    </modules>
+  </component>
+</project>

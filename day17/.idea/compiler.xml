@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pyg_web_shop" />
+        <module name="pyg_interface" />
+        <module name="pyg_common" />
+        <module name="pyg_service_search" />
+        <module name="pyg_web_user" />
+        <module name="pyg_service_user" />
+        <module name="pyg_dao" />
+        <module name="pyg_web_portal" />
+        <module name="pyg_service_buyer" />
+        <module name="pyg_web_manager" />
+        <module name="pyg_service_page" />
+        <module name="solr_util" />
+        <module name="pyg_pojo" />
+        <module name="pyg_service_sellergoods" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent318" target="1.7" />
+      <module name="pyg_common" target="1.7" />
+      <module name="pyg_dao" target="1.7" />
+      <module name="pyg_interface" target="1.7" />
+      <module name="pyg_pojo" target="1.7" />
+      <module name="pyg_service_buyer" target="1.7" />
+      <module name="pyg_service_page" target="1.7" />
+      <module name="pyg_service_search" target="1.7" />
+      <module name="pyg_service_sellergoods" target="1.7" />
+      <module name="pyg_service_user" target="1.7" />
+      <module name="pyg_web_manager" target="1.7" />
+      <module name="pyg_web_portal" target="1.7" />
+      <module name="pyg_web_shop" target="1.7" />
+      <module name="pyg_web_user" target="1.7" />
+      <module name="solr_util" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
